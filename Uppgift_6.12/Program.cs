@@ -8,6 +8,10 @@ namespace Uppgift_6_12
             RitaTriangel(3);
             RitaTriangel(4);
         }
+        /// <summary>
+        /// Ritar en likbent triangel med bestämd höjd
+        /// </summary>
+        /// <param name="höjd">Triangelns höjd</param>
         static void RitaTriangel(int höjd)
         {
             for (int i = 0; i < höjd; i++) //Rader
